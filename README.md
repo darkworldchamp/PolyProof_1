@@ -1,11 +1,11 @@
-# METACRAFTERS-POLY_Module1
-## BRIDGING OF THE ASSETS BTW ONE CHAIN AND OTHER 
+# POLY_Module1
+## Building with Polygon Bridge
 
 # Getting Started
 
 Run npm i to install dependencies
 Put your private key in the .env.examples file and rename to .env when finished
-Run npx hardhat run scripts/deploy.js --network sepolia to deploy ERC20 contract
+Run npx hardhat run scripts/deploy.js --network sepolia to deploy ERC721 contract
 Paste the newly deployed contract address in the tokenAddress variable for the other scripts
 Make sure to fill in your public key
 run `npm install`.
